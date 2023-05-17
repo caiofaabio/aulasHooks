@@ -14,11 +14,14 @@ function Header() {
       bg="dark"
       variant="dark"
     >
-      <Container>
+      <Container fluid>
         <Link to="/">
           <Navbar.Brand className={styles.title}>React Hooks</Navbar.Brand>
         </Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          className={styles.teste}
+          aria-controls="responsive-navbar-nav"
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto gap-2">
             <Link to="/usestate" className={styles.subTitle}>
@@ -26,6 +29,12 @@ function Header() {
             </Link>
             <Link to="/useeffect" className={styles.subTitle}>
               useEffect
+            </Link>
+            <Link to="/usecontext" className={styles.subTitle}>
+              useContext
+            </Link>
+            <Link to="/usereduce" className={styles.subTitle}>
+              useReduce
             </Link>
           </Nav>
         </Navbar.Collapse>

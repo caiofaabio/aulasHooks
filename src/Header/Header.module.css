@@ -15,6 +15,13 @@
   top: 0;
   right: 0;
   left: 0;
+  z-index: 2;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px
+}
+
+.teste {
+  padding: 0px 0px 0px 0px !important;
 }
 
 .title {
@@ -29,4 +36,12 @@
   font-weight: 500;
   font-family: sans-serif;
   color: var(--white);
+}
+
+button.navbar-toggler {
+  padding: 0px 0px 0px 0px !important;
+}
+
+button.navbar-toggler.collapsed {
+  width: 65px;
 }

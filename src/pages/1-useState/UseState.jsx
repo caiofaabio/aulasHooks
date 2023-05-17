@@ -24,6 +24,8 @@ const UseState = () => {
         uma variável de estado e uma função para atualizá-la, e o React cuida de
         rastrear as alterações e re-renderizar o componente quando o estado
         muda.
+        <br />
+        Ex:
       </p>
       <br />
       <div className={styles.content}>
@@ -35,12 +37,13 @@ const UseState = () => {
             marginBottom: "15px",
           }}
         >
-          <button onClick={remove}>- </button>
-          <button onClick={add}>+ </button>
+          <button onClick={remove}> - </button>
+          <button onClick={add}> + </button>
         </div>
-        <h4 className="d-flex justify-content-center gap-3">
-          Número: <p>{counter}</p>
-        </h4>
+        <div className="d-flex justify-content-center align-items-center gap-3 mb-0">
+          <h4 className="mb-0">Número: </h4>
+          <p className={styles.textFonte}>{counter}</p>
+        </div>
       </div>
     </>
   );

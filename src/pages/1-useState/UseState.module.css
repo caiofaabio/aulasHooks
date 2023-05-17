@@ -17,3 +17,9 @@ button {
 button:active {
   border: 2px solid #63A1FF;
 }
+
+.textFonte {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}

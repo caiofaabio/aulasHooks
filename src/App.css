@@ -4,10 +4,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #63A1FF;
+  --secondary: #FFA163;
+  --destaque: #63FFA1;
+  --white: #fff;
+}
+
 .mt-6 {
   margin-top: 6rem !important;
 }
 
 a {
   text-decoration: none !important;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
 }

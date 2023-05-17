@@ -1,0 +1,32 @@
+:root {
+  --primary: #63A1FF;
+  --secondary: #FFA163;
+  --destaque: #63FFA1;
+  --white: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+  border-bottom: 2px solid var(--primary);
+  background-color: var(--primary) !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: var(--white);
+}
+
+.subTitle {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: var(--white);
+}

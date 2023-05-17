@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+a {
+  text-decoration: none !important;
+}
